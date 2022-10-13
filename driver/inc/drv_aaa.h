@@ -5,6 +5,9 @@
 
 #define AAA 10
 
-int get_aaa(void);
+__STATIC_INLINE int get_aaa(void)
+{
+    return AAA + get_bbb();
+}
 
 #endif
