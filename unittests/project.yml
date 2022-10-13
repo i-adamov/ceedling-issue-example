@@ -22,7 +22,6 @@
   :support:
     - unittests/test/support
   :include:
-    - ./
     - inc/
     - driver/inc
     - driver/hal
